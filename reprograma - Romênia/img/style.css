@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+span {
+    font-weight: 700;
+    color:  #7E459B;
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.botao > a,
+.midias-sociais__container-link {
+    text-decoration: none;
+    color: #7E459B;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.botao {
+    margin-top: 8px;
+    background-color: white;
+    border: #7E459B solid 1px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+}
+
+
+.cabecalho {
+    background-image: url('./Romênia\ Ishiyama\ 2021.jpg');
+    background-size: 300px;
+    background-color: #7E459B; 
+    background-repeat: no-repeat;
+    background-position:30%;
+    width: 100%;
+    height: 600px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.container-cabecalho{
+    margin:600px; 
+}
+
+.cabecalho__titulo {
+    font-size: 3rem;
+    margin-bottom: 25px;
+    color: #868585;
+}
+
+.cabecalho__texto {
+    font-size: 1.6rem;
+}
+
+.destaque {
+    font-size: 1.3rem;
+    
+}
+
+.sobre-mim,
+.midias-sociais {
+    height: 850px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.display-flex {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre-mim__titulo {
+    font-size: 3rem;
+    color: #e7e7e771;
+}
+
+.sobre-mim__descricao, 
+.sobre-mim__habilidades {
+    width: 40%;
+    line-height: 1.5; 
+}
+
+.sobre-mim__descricao {
+   
+    margin: auto;
+    padding: 10px;
+    border-style: solid;
+    border-color: #C4C4C4;
+}
+
+.midias-sociais__container {
+    text-align: center;
+    width: 30%;
+    background-color: #7E459B;
+    padding: 90px;
+    
+}
+
+.midias-sociais__container-img {  
+    padding: 5px;
+    width: 100px;
+}
+
+.midias-sociais__container-link,
+.midias-sociais__container-paragrafo {
+    color: white;
+}
+
+.midias-sociais__container-paragrafo {
+    border-style: solid;
+    border-color: #C4C4C4;
+    font-size: 0.8rem; 	
+}
+
+.rodape__paragrafo {
+    text-align: center;
+    color: white;
+   
+}
+.rodape{
+    background-color: #7E459B;
+    border-style: solid;
+    border-color: #C4C4C4;
+}
+
+.midias{
+    display: flex;
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+    border-style: solid;
+    border-color: #C4C4C4;
+} 
+
